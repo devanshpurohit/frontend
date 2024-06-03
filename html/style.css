@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* a{
+    background-color: aqua;
+        text-align: center;
+        font-size: 2.3rem;
+        font-weight: 700;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.box{
+    height: 100px;
+    background-color: yellow;
+    margin: 8px 80px;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px 10px;
+    width: 200px;
+    height: 200px;
+}
+.box2{
+    height: 100px;
+    background-color:green;
+    margin: 8px 15px;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px 10px;
+    width: 200px;
+    margin: 8px 80px;
+    height: 200px;
+} */
+.container{
+    height: 100vh;
+    border: 2px solid black;
+    background: url("https://unsplash.com/photos/a-bunch-of-red-flowers-that-are-in-the-grass-ei1L6HxFvMM");
+    background-size: 100%;
+
+
+}
