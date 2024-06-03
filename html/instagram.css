@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container{
+ 
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100%;
+}
+.left{
+    border-right: 1px solid black;
+}
+.left .logo img{
+    width: 200px;
+    padding: 25px;
+}
+.left .menu ul li{
+     font-family: 'roboto' sans-serif;
+    padding: 15px;
+    list-style: none;
+}
+.left .menu ul li:hover{
+    color: rgb(222, 83, 129);
+    
+}
+.left .menu ul li i{
+    padding: 5px;
+}
+.left .others{
+    padding: 30px;
+    margin: 0px;
+}
+.left .others ul {
+  
+    list-style: none;
+}
+.left .others ul li{
+    padding: 10px;
+}
+.others ul li i{
+    padding: 5px;
+}

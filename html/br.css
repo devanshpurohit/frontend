@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'roboto',sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    width: .8rem;
+}
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius:5rem ;
+}
+body{
+    background: #fff;
+}
+section{
+    padding: 2rem 7%;
+}
+.heading{
+    text-align: center;
+    color: rgb(31, 216, 216);
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+.heading span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.btn{
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 2rem 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+.btn:hover{
+    letter-spacing: .5rem;
+}
+.header{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6%;
+    border-bottom: 2px solid white;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+.header .logo img{
+    width:  12rem;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(17, 95, 123);
+}
+.header .navbar a:hover{
+    color: rgb(52, 247, 247);
+    border-bottom: .1rem solid black;
+    padding-bottom: .5rem;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("architecture.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.home .content{
+    max-width: 60rem;
+}
+.home .content h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+     
+}
+.home .content p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    padding: .5rem 0;
+    color: #fff;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: space-between;
+}
+.about .row .image p{
+    font-size: 4rem;
+    display: flex;
+    color: rgb(17, 95, 123);
+    font-weight: 400;
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.about .row .content p{
+    font-size: 1.6rem;
+    color:black;
+    display: flex;
+    padding: 1rem;
+    line-height: 1.8;
+}

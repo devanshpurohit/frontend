@@ -33,11 +33,136 @@
     margin: 8px 80px;
     height: 200px;
 } */
-.container{
-    height: 100vh;
+/* .container{
+    height: 200px;
+    width: 200px;
     border: 2px solid black;
-    background: url("https://unsplash.com/photos/a-bunch-of-red-flowers-that-are-in-the-grass-ei1L6HxFvMM");
-    background-size: 100%;
+   align-items: center;
+   margin: auto;
 
+    animation-name: box;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: relative;
+    transition: all 1s;
+    margin-top: 100px;
+    
+}
+.container:hover{
+    background-color: aqua;
+    height: 200px;
+    width: 200px; */
+    /* transform: rotate(360deg);
+    transform: scale(1.8); */
+    /* transform: skewX(-60deg); */
+    /* transform: translate(200px); */
+/* }
+@keyframes box{ 
+     from{
+      
+        background-color: red;
+         transform: rotate(0deg);
+    }
+    to{
+      
+        background-color: yellow;
+        transform: rotate(360deg);
+    
+    }
+} */
+    /* 0%{
+        left: 0;
+        top: 0;
+        background-color: black;
+    }
+    25%{
+        left: 400px;
+        top: 0;
+        background-color: red;
+    }
+    50%{
+        top: 400px;
+        left: 400px;
+        background-color: yellow;
+    }
+    75%{
+        left: 0px;
+        top: 400px;
+        background-color: blue;
 
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: aqua;
+    }
+} */
+/* .box{
+    width: 30%;
+    border: 2px solid black;
+    height: 600px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: justify;
+    padding:20px ;
+    font-size: 50px;
+    overflow: auto;
+
+} */
+/* .header{
+font-size: 2em;
+display: flex;
+color: white;
+background-color: black;
+align-items: center;
+justify-content: space-between;
+font-family: sans-serif;
+border: 2px solid black;
+font-weight: 700;
+padding: 25px;
+min-width: 570px;
+
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+.right ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    list-style: none;
+}
+.bar{
+    display: none;
+}
+@media (max-width:570px){
+    .header{
+        color: aqua;
+    }
+    .bar{
+        display: block;
+
+    }
+    .right{
+        display: none;
+    }
+} */
+.container{
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(auto-fill,minmax(400px,1fr));
+    height: 100vh;
+}
+.box{
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid black;
 }
