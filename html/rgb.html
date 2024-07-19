@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random RGB Background</title>
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+</style>
+<body>
+    <div class="container">
+        <button id="setupButton">Setup</button>
+        <p id="rgbValue"></p>
+    </div>
+    <script >
+        document.getElementById('setupButton').addEventListener('click', function() {
+    // Generate a random RGB value
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+
+    // Create the RGB string
+    const rgbValue = `rgb(${r}, ${g}, ${b})`;
+
+    // Set the background color
+    document.body.style.backgroundColor = rgbValue;
+
+    // Display the RGB value
+    document.getElementById('rgbValue').innerText = rgbValue;
+});
+    </script>
+</body>
+</html>

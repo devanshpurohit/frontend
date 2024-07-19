@@ -6,6 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="index.js"></script>
+    <input type="text" placeholder="enter your name" class="inp"><br><br>
+    <input type="email" placeholder="enter your emial" class="inp"><br><br>
+    <input type="number" placeholder="enter your number" class="inp"><br><br>
+    <input type="password" placeholder="enter your password" class="inp"><br><br>
+
+    <button id="btn">submit</button>
+    <script>
+        document.getElementById("btn").onclick=function(){
+            let val=document.getElementsByClassName("inp");
+            for(let i=0;i<val.length;i++){
+            console.log(val[i].value)
+            }
+        }
+    </script>
 </body>
 </html>
